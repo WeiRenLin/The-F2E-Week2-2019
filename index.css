@@ -1,0 +1,75 @@
+body {
+    background: grey;
+}
+
+.card__Top {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.card__Top__single {
+    width: 100px;
+    border: 1px solid #000;
+    height: 170px;
+    line-height: 170px;
+}
+
+.card__Top__single img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card__bottom {
+    margin-top: 70px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 60%;
+}
+
+.card__bottom__single {
+    width: 100px;
+    border: 1px solid #000;
+    height: 170px;
+    line-height: 170px;
+}
+
+.card__bottom__single img {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card__bottom__single2 {
+    margin-top: -50px;
+    width: 100px;
+    border: 1px solid #000;
+    height: 170px;
+    line-height: 170px;
+}
+
+.card__bottom__single2 img {
+    width: 50%;
+    margin: 0 auto;
+}
+.un-order-decks {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 100px;
+}
+.underDeck-0 {
+    position: absolute;
+    top: 40px;
+    height: 150px;
+    width: 100px;
+}
+/*# sourceMappingURL=index.css.map */
